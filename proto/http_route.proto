@@ -146,3 +146,8 @@ message Ratio {
   // MUST not be zero.
   uint32 denominator = 2;
 }
+
+// A specific filter for BigIce's authorization.
+message BigIceAuth {
+  uint32 unused = 1;
+}
