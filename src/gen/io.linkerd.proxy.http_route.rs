@@ -203,3 +203,10 @@ pub struct Ratio {
     #[prost(uint32, tag = "2")]
     pub denominator: u32,
 }
+/// A specific filter for BigIce's authorization.
+#[allow(clippy::derive_partial_eq_without_eq)]
+#[derive(Clone, PartialEq, ::prost::Message)]
+pub struct BigIceAuth {
+    #[prost(uint32, tag = "1")]
+    pub unused: u32,
+}
